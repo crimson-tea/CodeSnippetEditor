@@ -18,6 +18,8 @@ https://user-images.githubusercontent.com/91731135/228750381-f2fdee92-603a-4086-
 ## インストール方法
 [こちら](https://github.com/crimson-tea/CodeSnippetEditor/releases/download/v0.1.0.0/CodeSnippetEditor.zip)より最新版をダウンロードしてください。その後、ダウンロードしたzipを展開してください。
 
+起動できない場合は、[こちらのランタイム](https://dotnet.microsoft.com/ja-jp/download/dotnet/thank-you/runtime-desktop-7.0.4-windows-x64-installer)のインストールをお試しください。
+
 ## 作成の動機
 競技プログラミングをするにあたり、スニペットを複数登録したくなりました。  
 Visual Studio でスニペットを登録するには Xml 形式のテキストを書く必要があります。  
