@@ -9,16 +9,24 @@ Visual Studio 用のスニペットを作成するアプリケーションです
 https://user-images.githubusercontent.com/91731135/228750381-f2fdee92-603a-4086-ad1e-59723842b8cb.mp4
 
 ## システム要件
-* Windows 10
+* Windows 10 64bit
 * .NET 7.0 以上
 
 ## 使用言語
 * C# .NET 7.0
 
 ## インストール方法
-[こちら](https://github.com/crimson-tea/CodeSnippetEditor)より最新版をダウンロードして、zipを展開してください。
+[こちら](https://github.com/crimson-tea/CodeSnippetEditor/releases/download/v0.1.0.0/CodeSnippetEditor.zip)より最新版をダウンロードしてください。その後、ダウンロードしたzipを展開してください。
+
+## 作成の動機
+競技プログラミングをするにあたり、スニペットを複数登録したくなりました。  
+Visual Studio でスニペットを登録するには Xml 形式のテキストを書く必要があります。  
+そこで、ドキュメントを読みながら Xml を書き、いくつかスニペットを作成しましたが、やはり生の Xml を編集するのはとても怠かったので、スニペットを簡単に作成できるようなアプリケーションを作りたくなりました。
+
+## 工夫？
+Redux 概略図からをイメージを膨らませて状態管理を書いてみました。  
+コードは若干長くなりましたが、一つ一つの操作がしっかり分離されていることや状態が一つの場所に集約されていることがよいところだと思いました。
 
 ## TODO 
 - [ ] README の加筆
-- [ ] Release の作成
 - [ ] Undo 機能の実装
